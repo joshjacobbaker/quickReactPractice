@@ -10,6 +10,8 @@ https://jsonplaceholder.typicode.com/
 
 ## Jest Unit Test Coverage
 
+## Husky pre-commit hook
+
 ## Project Structure
 
 ```

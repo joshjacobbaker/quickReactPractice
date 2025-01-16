@@ -3,9 +3,12 @@
 This is a simple React Single Page Application (SPA) built with TypeScript and Webpack.
 
 ## Fetching Mock Data from online resource below
+
 ```
 https://jsonplaceholder.typicode.com/
 ```
+
+## Jest Unit Test Coverage
 
 ## Project Structure
 
@@ -29,17 +32,20 @@ my-react-spa
 To get started with this project, follow these steps:
 
 1. **Clone the repository:**
+
    ```bash
    git clone <repository-url>
    cd my-react-spa
    ```
 
 2. **Install dependencies:**
+
    ```bash
    npm install
    ```
 
 3. **Run the application:**
+
    ```bash
    npm start
    ```

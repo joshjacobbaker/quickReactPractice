@@ -25,7 +25,6 @@ const App: React.FC = () => {
           alignItems: 'center',
         }}
       >
-        <div>TEst husky hooks</div>
         <nav>
           <ul style={{ listStyleType: 'none', padding: 0 }}>
             <li style={{ margin: '10px' }}>

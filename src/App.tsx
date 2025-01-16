@@ -35,6 +35,8 @@ const App: React.FC = () => {
             </li>
           </ul>
         </nav>
+        {/* TODO: Remove */}
+        <div>Yo</div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/example" element={<ExamplePage />} />

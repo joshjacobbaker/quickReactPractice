@@ -2,6 +2,11 @@
 
 This is a simple React Single Page Application (SPA) built with TypeScript and Webpack.
 
+## Fetching Mock Data from online resource below
+```
+https://jsonplaceholder.typicode.com/
+```
+
 ## Project Structure
 
 ```

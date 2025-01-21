@@ -1,7 +1,10 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
 import ExamplePage from './pages/ExamplePage'
+import RecursionFileStructurePage from './pages/RecursionFileStructurePage'
 import './styles/reset.css'
+import './styles/tailwind.css'
+
 const Home: React.FC = () => (
   <div>
     <h1>Welcome to My React SPA</h1>
@@ -34,14 +37,14 @@ const App: React.FC = () => {
               <Link to="/example">Example</Link>
             </li>
             <li style={{ margin: '10px' }}>
-              <Link to="/todo">Todo</Link>
+              <Link to="/recursion">Recursion</Link>
             </li>
           </ul>
         </nav>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/example" element={<ExamplePage />} />
-          <Route path="/todo" element={<ExamplePage />} />
+          <Route path="/recursion" element={<RecursionFileStructurePage />} />
         </Routes>
       </div>
     </Router>

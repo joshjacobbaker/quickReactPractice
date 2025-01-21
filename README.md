@@ -4,6 +4,12 @@ This is a simple React Single Page Application (SPA) built with TypeScript and W
 
 ## Fetching Mock Data from online resource below
 
+## Added commit linter
+
+- type: The type of change (e.g., feat, fix, docs, style, refactor, test, chore).
+- scope: The scope of the change (optional).
+- subject: A brief description of the change.
+
 ```
 https://jsonplaceholder.typicode.com/
 ```

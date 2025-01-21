@@ -33,11 +33,15 @@ const App: React.FC = () => {
             <li style={{ margin: '10px' }}>
               <Link to="/example">Example</Link>
             </li>
+            <li style={{ margin: '10px' }}>
+              <Link to="/todo">Todo</Link>
+            </li>
           </ul>
         </nav>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/example" element={<ExamplePage />} />
+          <Route path="/todo" element={<ExamplePage />} />
         </Routes>
       </div>
     </Router>

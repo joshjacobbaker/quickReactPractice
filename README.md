@@ -4,15 +4,49 @@ This is a simple React Single Page Application (SPA) built with TypeScript and W
 
 ## Fetching Mock Data from online resource below
 
+```
+https://jsonplaceholder.typicode.com/
+```
+
 ## Added commit linter
 
 - type: The type of change (e.g., feat, fix, docs, style, refactor, test, chore).
 - scope: The scope of the change (optional).
 - subject: A brief description of the change.
 
-```
-https://jsonplaceholder.typicode.com/
-```
+### Examples
+
+feat: A new feature
+
+- feat(auth): add login functionality
+
+fix: A bug fix
+
+- fix(auth): resolve login issue with incorrect password handling
+
+docs: Documentation only changes
+
+- docs(readme): update README with new setup instructions
+
+style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+
+- style(app): format code with Prettier
+
+refactor: A code change that neither fixes a bug nor adds a feature
+
+- refactor(auth): simplify login logic
+
+perf: A code change that improves performance
+
+- perf(api): optimize data fetching for better performance
+
+test: Adding missing tests or correcting existing tests
+
+- test(auth): add unit tests for login component
+
+chore: Changes to the build process or auxiliary tools and libraries such as documentation generation
+
+- chore(deps): update dependencies to latest versions
 
 ## Jest Unit Test Coverage
 

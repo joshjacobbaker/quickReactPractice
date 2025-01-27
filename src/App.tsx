@@ -4,6 +4,7 @@ import ExamplePage from './pages/ExamplePage'
 import RecursionFileStructurePage from './pages/RecursionFileStructurePage'
 import './styles/reset.css'
 import './styles/tailwind.css'
+import TestNpmRegistryCustomHookPage from './pages/TestNpmRegistryCustomHookPage'
 
 const Home: React.FC = () => (
   <div>
@@ -39,6 +40,11 @@ const App: React.FC = () => {
             <li style={{ margin: '10px' }}>
               <Link to="/recursion">Recursion</Link>
             </li>
+            <li style={{ margin: '10px' }}>
+              <Link to="/testNpmRegistryCustomHook">
+                Custom Hook NPM Registry
+              </Link>
+            </li>
           </ul>
         </nav>
         {/* TODO */}
@@ -46,6 +52,10 @@ const App: React.FC = () => {
           <Route path="/" element={<Home />} />
           <Route path="/example" element={<ExamplePage />} />
           <Route path="/recursion" element={<RecursionFileStructurePage />} />
+          <Route
+            path="/testNpmRegistryCustomHook"
+            element={<TestNpmRegistryCustomHookPage />}
+          />
         </Routes>
       </div>
     </Router>

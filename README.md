@@ -105,3 +105,7 @@ To get started with this project, follow these steps:
 ## License
 
 This project is licensed under the MIT License.
+
+# Todo
+
+- Add config for debugging react with vscode debugger

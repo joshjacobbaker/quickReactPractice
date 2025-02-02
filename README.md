@@ -111,3 +111,5 @@ This project is licensed under the MIT License.
 - Add config for debugging react with vscode debugger
 - Clear CDN cache after deployment
 - Code SOLID patterns
+- wireit package.json script
+- programmatic scripts

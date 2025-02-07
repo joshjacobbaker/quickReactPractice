@@ -113,3 +113,5 @@ This project is licensed under the MIT License.
 - Code SOLID patterns
 - wireit package.json script
 - programmatic scripts
+- Deploy to lambda
+- Deploy to EKS
